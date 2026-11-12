@@ -1,0 +1,123 @@
+[
+  {
+    "id": 1,
+    "name": {
+      "id": "Barang Baku",
+      "en": "Basic Materials"
+    },
+    "slug": {
+      "id": "barang-baku",
+      "en": "basic-materials"
+    }
+  },
+  {
+    "id": 2,
+    "name": {
+      "id": "Barang Konsumen Non-Primer",
+      "en": "Consumer Non-Cyclicals"
+    },
+    "slug": {
+      "id": "barang-konsumen-non-primer",
+      "en": "consumer-non-cyclicals"
+    }
+  },
+  {
+    "id": 3,
+    "name": {
+      "id": "Barang Konsumen Primer",
+      "en": "Consumer Cyclicals"
+    },
+    "slug": {
+      "id": "barang-konsumen-primer",
+      "en": "consumer-cyclicals"
+    }
+  },
+  {
+    "id": 4,
+    "name": {
+      "id": "Energi",
+      "en": "Energy"
+    },
+    "slug": {
+      "id": "energi",
+      "en": "energy"
+    }
+  },
+  {
+    "id": 5,
+    "name": {
+      "id": "Infrastruktur",
+      "en": "Infrastructures"
+    },
+    "slug": {
+      "id": "infrastruktur",
+      "en": "infrastructures"
+    }
+  },
+  {
+    "id": 6,
+    "name": {
+      "id": "Kesehatan",
+      "en": "Healthcare"
+    },
+    "slug": {
+      "id": "kesehatan",
+      "en": "healthcare"
+    }
+  },
+  {
+    "id": 7,
+    "name": {
+      "id": "Keuangan",
+      "en": "Financials"
+    },
+    "slug": {
+      "id": "keuangan",
+      "en": "financials"
+    }
+  },
+  {
+    "id": 8,
+    "name": {
+      "id": "Perindustrian",
+      "en": "Industrials"
+    },
+    "slug": {
+      "id": "perindustrian",
+      "en": "industrials"
+    }
+  },
+  {
+    "id": 9,
+    "name": {
+      "id": "Properti & Real Estat",
+      "en": "Properties & Real Estate"
+    },
+    "slug": {
+      "id": "properti-dan-real-estat",
+      "en": "properties-and-real-estate"
+    }
+  },
+  {
+    "id": 10,
+    "name": {
+      "id": "Teknologi",
+      "en": "Technology"
+    },
+    "slug": {
+      "id": "teknologi",
+      "en": "technology"
+    }
+  },
+  {
+    "id": 11,
+    "name": {
+      "id": "Transportasi & Logistik",
+      "en": "Transportation & Logistic"
+    },
+    "slug": {
+      "id": "transportasi-dan-logistik",
+      "en": "transportation-and-logistic"
+    }
+  }
+]

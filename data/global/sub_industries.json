@@ -1,0 +1,1143 @@
+[
+  {
+    "id": 1,
+    "name": {
+      "id": "Agen Perjalanan",
+      "en": "Travel Agencies"
+    },
+    "slug": {
+      "id": "agen-perjalanan",
+      "en": "travel-agencies"
+    },
+    "industries_id": 32
+  },
+  {
+    "id": 2,
+    "name": {
+      "id": "Alas Kaki",
+      "en": "Footwear"
+    },
+    "slug": {
+      "id": "alas-kaki",
+      "en": "footwear"
+    },
+    "industries_id": 31
+  },
+  {
+    "id": 3,
+    "name": {
+      "id": "Alumunium",
+      "en": "Aluminum"
+    },
+    "slug": {
+      "id": "alumunium",
+      "en": "aluminum"
+    },
+    "industries_id": 21
+  },
+  {
+    "id": 4,
+    "name": {
+      "id": "Aplikasi & Jasa Internet",
+      "en": "Online Applications & Services"
+    },
+    "slug": {
+      "id": "aplikasi-dan-jasa-internet",
+      "en": "online-applications-and-services"
+    },
+    "industries_id": 1
+  },
+  {
+    "id": 5,
+    "name": {
+      "id": "Asuransi Jiwa",
+      "en": "Life Insurance"
+    },
+    "slug": {
+      "id": "asuransi-jiwa",
+      "en": "life-insurance"
+    },
+    "industries_id": 2
+  },
+  {
+    "id": 6,
+    "name": {
+      "id": "Asuransi Umum",
+      "en": "General Insurance"
+    },
+    "slug": {
+      "id": "asuransi-umum",
+      "en": "general-insurance"
+    },
+    "industries_id": 2
+  },
+  {
+    "id": 7,
+    "name": {
+      "id": "Baja & Besi",
+      "en": "Iron & Steel"
+    },
+    "slug": {
+      "id": "baja-dan-besi",
+      "en": "iron-and-steel"
+    },
+    "industries_id": 21
+  },
+  {
+    "id": 8,
+    "name": {
+      "id": "Ban",
+      "en": "Tires"
+    },
+    "slug": {
+      "id": "ban",
+      "en": "tires"
+    },
+    "industries_id": 19
+  },
+  {
+    "id": 9,
+    "name": {
+      "id": "Bank",
+      "en": "Banks"
+    },
+    "slug": {
+      "id": "bank",
+      "en": "banks"
+    },
+    "industries_id": 3
+  },
+  {
+    "id": 10,
+    "name": {
+      "id": "Bank Investasi & Perantara Perdagangan",
+      "en": "Investment Banking & Brokerage Services"
+    },
+    "slug": {
+      "id": "bank-investasi-dan-perantara-perdagangan",
+      "en": "investment-banking-and-brokerage-services"
+    },
+    "industries_id": 13
+  },
+  {
+    "id": 11,
+    "name": {
+      "id": "Barang Elektronik Konsumen",
+      "en": "Consumer Electronics"
+    },
+    "slug": {
+      "id": "barang-elektronik-konsumen",
+      "en": "consumer-electronics"
+    },
+    "industries_id": 4
+  },
+  {
+    "id": 12,
+    "name": {
+      "id": "Barang Kimia Dasar",
+      "en": "Basic Chemicals"
+    },
+    "slug": {
+      "id": "barang-kimia-dasar",
+      "en": "basic-chemicals"
+    },
+    "industries_id": 5
+  },
+  {
+    "id": 13,
+    "name": {
+      "id": "Barang Kimia Khusus",
+      "en": "Specialty Chemicals"
+    },
+    "slug": {
+      "id": "barang-kimia-khusus",
+      "en": "specialty-chemicals"
+    },
+    "industries_id": 5
+  },
+  {
+    "id": 14,
+    "name": {
+      "id": "Barang Kimia Pertanian",
+      "en": "Agricultural Chemicals"
+    },
+    "slug": {
+      "id": "barang-kimia-pertanian",
+      "en": "agricultural-chemicals"
+    },
+    "industries_id": 5
+  },
+  {
+    "id": 15,
+    "name": {
+      "id": "Department Store",
+      "en": "Department Stores"
+    },
+    "slug": {
+      "id": "department-store",
+      "en": "department-stores"
+    },
+    "industries_id": 8
+  },
+  {
+    "id": 16,
+    "name": {
+      "id": "Distribusi Batu Bara",
+      "en": "Coal Distribution"
+    },
+    "slug": {
+      "id": "distribusi-batu-bara",
+      "en": "coal-distribution"
+    },
+    "industries_id": 35
+  },
+  {
+    "id": 17,
+    "name": {
+      "id": "Distributor Barang Konsumen",
+      "en": "Consumer Distributors"
+    },
+    "slug": {
+      "id": "distributor-barang-konsumen",
+      "en": "consumer-distributors"
+    },
+    "industries_id": 9
+  },
+  {
+    "id": 18,
+    "name": {
+      "id": "Emas",
+      "en": "Gold"
+    },
+    "slug": {
+      "id": "emas",
+      "en": "gold"
+    },
+    "industries_id": 21
+  },
+  {
+    "id": 19,
+    "name": {
+      "id": "Farmasi",
+      "en": "Pharmaceuticals"
+    },
+    "slug": {
+      "id": "farmasi",
+      "en": "pharmaceuticals"
+    },
+    "industries_id": 10
+  },
+  {
+    "id": 20,
+    "name": {
+      "id": "Fasilitas Rekreasi & Olah Raga",
+      "en": "Recreational & Sports Facilities"
+    },
+    "slug": {
+      "id": "fasilitas-rekreasi-dan-olah-raga",
+      "en": "recreational-and-sports-facilities"
+    },
+    "industries_id": 32
+  },
+  {
+    "id": 21,
+    "name": {
+      "id": "Hiburan & Film",
+      "en": "Entertainment & Movie Production"
+    },
+    "slug": {
+      "id": "hiburan-dan-film",
+      "en": "entertainment-and-movie-production"
+    },
+    "industries_id": 11
+  },
+  {
+    "id": 22,
+    "name": {
+      "id": "Hotel, Resor & Kapal Pesiar",
+      "en": "Hotels, Resorts & Cruise Lines"
+    },
+    "slug": {
+      "id": "hotel-resor-dan-kapal-pesiar",
+      "en": "hotels-resorts-and-cruise-lines"
+    },
+    "industries_id": 32
+  },
+  {
+    "id": 23,
+    "name": {
+      "id": "Ikan, Daging & Produk Unggas",
+      "en": "Fish, Meat, & Poultry"
+    },
+    "slug": {
+      "id": "ikan-daging-dan-produk-unggas",
+      "en": "fish-meat-and-poultry"
+    },
+    "industries_id": 52
+  },
+  {
+    "id": 24,
+    "name": {
+      "id": "Jasa & Konsultan TI",
+      "en": "IT Services & Consulting"
+    },
+    "slug": {
+      "id": "jasa-dan-konsultan-ti",
+      "en": "it-services-and-consulting"
+    },
+    "industries_id": 12
+  },
+  {
+    "id": 25,
+    "name": {
+      "id": "Jasa & Perlengkapan Minyak, Gas & Batu Bara",
+      "en": "Oil, Gas & Coal Equipment & Services"
+    },
+    "slug": {
+      "id": "jasa-dan-perlengkapan-minyak-gas-dan-batu-bara",
+      "en": "oil-gas-and-coal-equipment-and-services"
+    },
+    "industries_id": 35
+  },
+  {
+    "id": 26,
+    "name": {
+      "id": "Jasa Pendidikan",
+      "en": "Education Services"
+    },
+    "slug": {
+      "id": "jasa-pendidikan",
+      "en": "education-services"
+    },
+    "industries_id": 34
+  },
+  {
+    "id": 27,
+    "name": {
+      "id": "Jasa Pendukung Bisnis",
+      "en": "Business Support Services"
+    },
+    "slug": {
+      "id": "jasa-pendukung-bisnis",
+      "en": "business-support-services"
+    },
+    "industries_id": 14
+  },
+  {
+    "id": 28,
+    "name": {
+      "id": "Jasa Penelitian & Konsultasi",
+      "en": "Research & Consulting Services"
+    },
+    "slug": {
+      "id": "jasa-penelitian-dan-konsultasi",
+      "en": "research-and-consulting-services"
+    },
+    "industries_id": 15
+  },
+  {
+    "id": 29,
+    "name": {
+      "id": "Jasa Pengeboran Minyak & Gas",
+      "en": "Oil & Gas Drilling Service"
+    },
+    "slug": {
+      "id": "jasa-pengeboran-minyak-dan-gas",
+      "en": "oil-and-gas-drilling-service"
+    },
+    "industries_id": 35
+  },
+  {
+    "id": 30,
+    "name": {
+      "id": "Jasa Pengelolaan Lingkungan & Sarana",
+      "en": "Environmental & Facilities Services"
+    },
+    "slug": {
+      "id": "jasa-pengelolaan-lingkungan-dan-sarana",
+      "en": "environmental-and-facilities-services"
+    },
+    "industries_id": 14
+  },
+  {
+    "id": 31,
+    "name": {
+      "id": "Jasa Personalia",
+      "en": "Human Resource & Employment Services"
+    },
+    "slug": {
+      "id": "jasa-personalia",
+      "en": "human-resource-employment-services"
+    }
+  },
+  {
+    "id": 32,
+    "name": {
+      "id": "Jasa Real Estat",
+      "en": "Real Estate Services"
+    },
+    "slug": {
+      "id": "jasa-real-estat",
+      "en": "real-estate-services"
+    }
+  },
+  {
+    "id": 33,
+    "name": {
+      "id": "Jasa Telekomunikasi Kabel",
+      "en": "Wired Telecommunication Service"
+    },
+    "slug": {
+      "id": "jasa-telekomunikasi-kabel",
+      "en": "wired-telecommunication-service"
+    }
+  },
+  {
+    "id": 34,
+    "name": {
+      "id": "Jasa Telekomunikasi Nirkabel",
+      "en": "Wireless Telecommunication Services"
+    },
+    "slug": {
+      "id": "jasa-telekomunikasi-nirkabel",
+      "en": "wireless-telecommunication-services"
+    }
+  },
+  {
+    "id": 35,
+    "name": {
+      "id": "Jasa Telekomunikasi Terintegrasi",
+      "en": "Integrated Telecommunication Service"
+    },
+    "slug": {
+      "id": "jasa-telekomunikasi-terintegrasi",
+      "en": "integrated-telecommunication-service"
+    }
+  },
+  {
+    "id": 36,
+    "name": {
+      "id": "Kayu",
+      "en": "Timber"
+    },
+    "slug": {
+      "id": "kayu",
+      "en": "timber"
+    }
+  },
+  {
+    "id": 37,
+    "name": {
+      "id": "Kertas",
+      "en": "Paper"
+    },
+    "slug": {
+      "id": "kertas",
+      "en": "paper"
+    }
+  },
+  {
+    "id": 38,
+    "name": {
+      "id": "Komponen & Peralatan Kelistrikan",
+      "en": "Electrical Components & Equipment"
+    },
+    "slug": {
+      "id": "komponen-peralatan-kelistrikan",
+      "en": "electrical-components-equipment"
+    }
+  },
+  {
+    "id": 39,
+    "name": {
+      "id": "Konstruksi Bangunan",
+      "en": "Heavy Constructions & Civil Engineering"
+    },
+    "slug": {
+      "id": "konstruksi-bangunan",
+      "en": "heavy-constructions-civil-engineering"
+    }
+  },
+  {
+    "id": 40,
+    "name": {
+      "id": "Logam & Mineral Lainnya",
+      "en": "Diversified Metals & Minerals"
+    },
+    "slug": {
+      "id": "logam-mineral-lainnya",
+      "en": "diversified-metals-minerals"
+    }
+  },
+  {
+    "id": 41,
+    "name": {
+      "id": "Logistik & Pengantaran",
+      "en": "Logistics & Deliveries"
+    },
+    "slug": {
+      "id": "logistik-pengantaran",
+      "en": "logistics-deliveries"
+    }
+  },
+  {
+    "id": 42,
+    "name": {
+      "id": "Makanan Olahan",
+      "en": "Processed Foods"
+    },
+    "slug": {
+      "id": "makanan-olahan",
+      "en": "processed-foods"
+    }
+  },
+  {
+    "id": 43,
+    "name": {
+      "id": "Manajemen Investasi",
+      "en": "Investment Management"
+    },
+    "slug": {
+      "id": "manajemen-investasi",
+      "en": "investment-management"
+    }
+  },
+  {
+    "id": 44,
+    "name": {
+      "id": "Maskapai Penerbangan",
+      "en": "Airlines"
+    },
+    "slug": {
+      "id": "maskapai-penerbangan",
+      "en": "airlines"
+    }
+  },
+  {
+    "id": 45,
+    "name": {
+      "id": "Material Konstruksi",
+      "en": "Construction Materials"
+    },
+    "slug": {
+      "id": "material-konstruksi",
+      "en": "construction-materials"
+    }
+  },
+  {
+    "id": 46,
+    "name": {
+      "id": "Mesin & Komponen Perindustrian",
+      "en": "Industrial Machinery & Components"
+    },
+    "slug": {
+      "id": "mesin-komponen-perindustrian",
+      "en": "industrial-machinery-components"
+    }
+  },
+  {
+    "id": 47,
+    "name": {
+      "id": "Mesin Konstruksi & Kendaraan Berat",
+      "en": "Construction Machinery & Heavy Vehicles"
+    },
+    "slug": {
+      "id": "mesin-konstruksi-kendaraan-berat",
+      "en": "construction-machinery-heavy-vehicles"
+    }
+  },
+  {
+    "id": 48,
+    "name": {
+      "id": "Minuman Keras",
+      "en": "Liquors"
+    },
+    "slug": {
+      "id": "minuman-keras",
+      "en": "liquors"
+    }
+  },
+  {
+    "id": 49,
+    "name": {
+      "id": "Minuman Ringan",
+      "en": "Soft Drinks"
+    },
+    "slug": {
+      "id": "minuman-ringan",
+      "en": "soft-drinks"
+    }
+  },
+  {
+    "id": 50,
+    "name": {
+      "id": "Operator Bandar Udara",
+      "en": "Airport Operators"
+    },
+    "slug": {
+      "id": "operator-bandar-udara",
+      "en": "airport-operators"
+    }
+  },
+  {
+    "id": 51,
+    "name": {
+      "id": "Operator Jalan Tol & Rel",
+      "en": "Highways & Railtracks"
+    },
+    "slug": {
+      "id": "operator-jalan-tol-rel",
+      "en": "highways-railtracks"
+    }
+  },
+  {
+    "id": 52,
+    "name": {
+      "id": "Operator Pelabuhan",
+      "en": "Marine Ports & Services"
+    },
+    "slug": {
+      "id": "operator-pelabuhan",
+      "en": "marine-ports-services"
+    }
+  },
+  {
+    "id": 53,
+    "name": {
+      "id": "Pakaian, Aksesoris, & Tas",
+      "en": "Clothing, Accessories & Bags"
+    },
+    "slug": {
+      "id": "pakaian-aksesoris-tas",
+      "en": "clothing-accessories-bags"
+    }
+  },
+  {
+    "id": 54,
+    "name": {
+      "id": "Pembiayaan Konsumen",
+      "en": "Consumer Financing"
+    },
+    "slug": {
+      "id": "pembiayaan-konsumen",
+      "en": "consumer-financing"
+    }
+  },
+  {
+    "id": 55,
+    "name": {
+      "id": "Penerbitan",
+      "en": "Consumer Publishing"
+    },
+    "slug": {
+      "id": "penerbitan",
+      "en": "consumer-publishing"
+    }
+  },
+  {
+    "id": 56,
+    "name": {
+      "id": "Pengembang & Operator Real Estat",
+      "en": "Real Estate Development & Management"
+    },
+    "slug": {
+      "id": "pengembang-operator-real-estat",
+      "en": "real-estate-development-management"
+    }
+  },
+  {
+    "id": 57,
+    "name": {
+      "id": "Penyedia & Distribusi Perlengkapan Kesehatan",
+      "en": "Healthcare Supplies & Distributions"
+    },
+    "slug": {
+      "id": "penyedia-distribusi-perlengkapan-kesehatan",
+      "en": "healthcare-supplies-distributions"
+    }
+  },
+  {
+    "id": 58,
+    "name": {
+      "id": "Penyedia Jasa Kesehatan",
+      "en": "Healthcare Providers"
+    },
+    "slug": {
+      "id": "penyedia-jasa-kesehatan",
+      "en": "healthcare-providers"
+    }
+  },
+  {
+    "id": 59,
+    "name": {
+      "id": "Penyiaran",
+      "en": "Broadcasting"
+    },
+    "slug": {
+      "id": "penyiaran",
+      "en": "broadcasting"
+    }
+  },
+  {
+    "id": 60,
+    "name": {
+      "id": "Penyiaran Berbayar",
+      "en": "Cable & Satellite"
+    },
+    "slug": {
+      "id": "penyiaran-berbayar",
+      "en": "cable-satellite"
+    }
+  },
+  {
+    "id": 61,
+    "name": {
+      "id": "Penyimpanan & Distribusi Minyak & Gas",
+      "en": "Oil & Gas Storage & Distribution"
+    },
+    "slug": {
+      "id": "penyimpanan-distribusi-minyak-gas",
+      "en": "oil-gas-storage-distribution"
+    }
+  },
+  {
+    "id": 62,
+    "name": {
+      "id": "Peralatan Energi Alternatif",
+      "en": "Alternative Energy Equipment"
+    },
+    "slug": {
+      "id": "peralatan-energi-alternatif",
+      "en": "alternative-energy-equipment"
+    }
+  },
+  {
+    "id": 63,
+    "name": {
+      "id": "Peralatan Jaringan",
+      "en": "Networking Equipment"
+    },
+    "slug": {
+      "id": "peralatan-jaringan",
+      "en": "networking-equipment"
+    }
+  },
+  {
+    "id": 64,
+    "name": {
+      "id": "Peralatan Kantor",
+      "en": "Office Supplies"
+    },
+    "slug": {
+      "id": "peralatan-kantor",
+      "en": "office-supplies"
+    }
+  },
+  {
+    "id": 65,
+    "name": {
+      "id": "Peralatan Olah Raga & Barang Hobi",
+      "en": "Sport Equipment & Hobbies Goods"
+    },
+    "slug": {
+      "id": "peralatan-olah-raga-barang-hobi",
+      "en": "sport-equipment-hobbies-goods"
+    }
+  },
+  {
+    "id": 66,
+    "name": {
+      "id": "Peralatan Rumah Tangga",
+      "en": "Housewares & Specialties"
+    },
+    "slug": {
+      "id": "peralatan-rumah-tangga",
+      "en": "housewares-specialties"
+    }
+  },
+  {
+    "id": 67,
+    "name": {
+      "id": "Perangkat & Instrumen Elektronik",
+      "en": "Electronic Equipment & Instruments"
+    },
+    "slug": {
+      "id": "perangkat-instrumen-elektronik",
+      "en": "electronic-equipment-instruments"
+    }
+  },
+  {
+    "id": 68,
+    "name": {
+      "id": "Perangkat Komputer",
+      "en": "Computer Hardware"
+    },
+    "slug": {
+      "id": "perangkat-komputer",
+      "en": "computer-hardware"
+    }
+  },
+  {
+    "id": 69,
+    "name": {
+      "id": "Perangkat Lunak",
+      "en": "Software"
+    },
+    "slug": {
+      "id": "perangkat-lunak",
+      "en": "software"
+    }
+  },
+  {
+    "id": 70,
+    "name": {
+      "id": "Percetakan Komersial",
+      "en": "Commercial Printing"
+    },
+    "slug": {
+      "id": "percetakan-komersial",
+      "en": "commercial-printing"
+    }
+  },
+  {
+    "id": 71,
+    "name": {
+      "id": "Perdagangan Aneka Barang Perindustrian",
+      "en": "Diversified Industrial Trading"
+    },
+    "slug": {
+      "id": "perdagangan-aneka-barang-perindustrian",
+      "en": "diversified-industrial-trading"
+    }
+  },
+  {
+    "id": 72,
+    "name": {
+      "id": "Periklanan",
+      "en": "Advertising"
+    },
+    "slug": {
+      "id": "periklanan",
+      "en": "advertising"
+    }
+  },
+  {
+    "id": 73,
+    "name": {
+      "id": "Perkebunan & Tanaman Pangan",
+      "en": "Plantations & Crops"
+    },
+    "slug": {
+      "id": "perkebunan-tanaman-pangan",
+      "en": "plantations-crops"
+    }
+  },
+  {
+    "id": 74,
+    "name": {
+      "id": "Perlengkapan Rumah Tangga",
+      "en": "Home Furnishings"
+    },
+    "slug": {
+      "id": "perlengkapan-rumah-tangga",
+      "en": "home-furnishings"
+    }
+  },
+  {
+    "id": 75,
+    "name": {
+      "id": "Perusahaan Holding Keuangan",
+      "en": "Financial Holdings"
+    },
+    "slug": {
+      "id": "perusahaan-holding-keuangan",
+      "en": "financial-holdings"
+    }
+  },
+  {
+    "id": 76,
+    "name": {
+      "id": "Perusahaan Holding Multi-sektor",
+      "en": "Multi-sector Holdings"
+    },
+    "slug": {
+      "id": "perusahaan-holding-multi-sektor",
+      "en": "multi-sector-holdings"
+    }
+  },
+  {
+    "id": 77,
+    "name": {
+      "id": "Perusahaan Investasi",
+      "en": "Investment Companies"
+    },
+    "slug": {
+      "id": "perusahaan-investasi",
+      "en": "investment-companies"
+    }
+  },
+  {
+    "id": 78,
+    "name": {
+      "id": "Produk & Perlengkapan Bangunan",
+      "en": "Building Products & Fixtures"
+    },
+    "slug": {
+      "id": "produk-perlengkapan-bangunan",
+      "en": "building-products-fixtures"
+    }
+  },
+  {
+    "id": 79,
+    "name": {
+      "id": "Produk Hutan Lainnya",
+      "en": "Diversified Forest"
+    },
+    "slug": {
+      "id": "produk-hutan-lainnya",
+      "en": "diversified-forest"
+    }
+  },
+  {
+    "id": 80,
+    "name": {
+      "id": "Produk Perawatan Tubuh",
+      "en": "Personal Care Products"
+    },
+    "slug": {
+      "id": "produk-perawatan-tubuh",
+      "en": "personal-care-products"
+    }
+  },
+  {
+    "id": 81,
+    "name": {
+      "id": "Produk Susu Olahan",
+      "en": "Dairy Products"
+    },
+    "slug": {
+      "id": "produk-susu-olahan",
+      "en": "dairy-products"
+    }
+  },
+  {
+    "id": 82,
+    "name": {
+      "id": "Produksi & Penyulingan Minyak & Gas",
+      "en": "Oil & Gas Production & Refinery"
+    },
+    "slug": {
+      "id": "produksi-penyulingan-minyak-gas",
+      "en": "oil-gas-production-refinery"
+    }
+  },
+  {
+    "id": 83,
+    "name": {
+      "id": "Produksi Batu Bara",
+      "en": "Coal Production"
+    },
+    "slug": {
+      "id": "produksi-batu-bara",
+      "en": "coal-production"
+    }
+  },
+  {
+    "id": 84,
+    "name": {
+      "id": "Produsen Furnitur Rumah",
+      "en": "Home Furnishings"
+    },
+    "slug": {
+      "id": "produsen-furnitur-rumah",
+      "en": "home-furnishings"
+    }
+  },
+  {
+    "id": 85,
+    "name": {
+      "id": "Reasuransi",
+      "en": "Reasurance"
+    },
+    "slug": {
+      "id": "reasuransi",
+      "en": "reasurance"
+    }
+  },
+  {
+    "id": 86,
+    "name": {
+      "id": "Ritel & Distributor Makanan",
+      "en": "Food Retail & Distributors"
+    },
+    "slug": {
+      "id": "ritel-distributor-makanan",
+      "en": "food-retail-distributors"
+    }
+  },
+  {
+    "id": 87,
+    "name": {
+      "id": "Ritel & Distributor Obat-obatan",
+      "en": "Drug Retail & Distributors"
+    },
+    "slug": {
+      "id": "ritel-distributor-obat-obatan",
+      "en": "drug-retail-distributors"
+    }
+  },
+  {
+    "id": 88,
+    "name": {
+      "id": "Ritel Barang Rumah Tangga",
+      "en": "Home Improvement Retail"
+    },
+    "slug": {
+      "id": "ritel-barang-rumah-tangga",
+      "en": "home-improvement-retail"
+    }
+  },
+  {
+    "id": 89,
+    "name": {
+      "id": "Ritel Elektronik",
+      "en": "Electronics Retail"
+    },
+    "slug": {
+      "id": "ritel-elektronik",
+      "en": "electronics-retail"
+    }
+  },
+  {
+    "id": 90,
+    "name": {
+      "id": "Ritel Otomotif",
+      "en": "Automotive Retail"
+    },
+    "slug": {
+      "id": "ritel-otomotif",
+      "en": "automotive-retail"
+    }
+  },
+  {
+    "id": 91,
+    "name": {
+      "id": "Ritel Pakaian & Tekstil",
+      "en": "Apparel & Textile Retail"
+    },
+    "slug": {
+      "id": "ritel-pakaian-tekstil",
+      "en": "apparel-textile-retail"
+    }
+  },
+  {
+    "id": 92,
+    "name": {
+      "id": "Rokok",
+      "en": "Tobacco"
+    },
+    "slug": {
+      "id": "rokok",
+      "en": "tobacco"
+    }
+  },
+  {
+    "id": 93,
+    "name": {
+      "id": "Rumah Makan",
+      "en": "Restaurants"
+    },
+    "slug": {
+      "id": "rumah-makan",
+      "en": "restaurants"
+    }
+  },
+  {
+    "id": 94,
+    "name": {
+      "id": "Suku Cadang Otomotif",
+      "en": "Auto Parts & Equipment"
+    },
+    "slug": {
+      "id": "suku-cadang-otomotif",
+      "en": "auto-parts-equipment"
+    }
+  },
+  {
+    "id": 95,
+    "name": {
+      "id": "Supermarket",
+      "en": "Supermarkets & Convenience Store"
+    },
+    "slug": {
+      "id": "supermarket",
+      "en": "supermarkets-convenience-store"
+    }
+  },
+  {
+    "id": 96,
+    "name": {
+      "id": "Tekstil",
+      "en": "Textiles"
+    },
+    "slug": {
+      "id": "tekstil",
+      "en": "textiles"
+    }
+  },
+  {
+    "id": 97,
+    "name": {
+      "id": "Tembaga",
+      "en": "Cooper"
+    },
+    "slug": {
+      "id": "tembaga",
+      "en": "cooper"
+    }
+  },
+  {
+    "id": 98,
+    "name": {
+      "id": "Transportasi Jalanan",
+      "en": "Road Transportation"
+    },
+    "slug": {
+      "id": "transportasi-jalanan",
+      "en": "road-transportation"
+    }
+  },
+  {
+    "id": 99,
+    "name": {
+      "id": "Utilitas Gas",
+      "en": "Gas Utilities"
+    },
+    "slug": {
+      "id": "utilitas-gas",
+      "en": "gas-utilities"
+    }
+  },
+  {
+    "id": 100,
+    "name": {
+      "id": "Utilitas Listrik",
+      "en": "Electric Utilities"
+    },
+    "slug": {
+      "id": "utilitas-listrik",
+      "en": "electric-utilities"
+    }
+  },
+  {
+    "id": 101,
+    "name": {
+      "id": "Wadah & Kemasan",
+      "en": "Containers & Packaging"
+    },
+    "slug": {
+      "id": "wadah-kemasan",
+      "en": "containers-packaging"
+    }
+  }
+]
