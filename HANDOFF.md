@@ -20,7 +20,7 @@ Yang belum:
 
 ## Sync API (AdminSinkron), 2026-11-12
 
-`lib/sync-agent.js` (dijalankan oleh `npm start` / `index.js`) mengambil job dari antrean backend, menjalankan crawler, lalu mengirim laporan. Pemetaan job:
+`lib/sync-agent.js` (dijalankan oleh `npm start` / `index.js`; `npm run build` juga mengirim dan melapor kalau `.env` terisi) mengambil job dari antrean backend, menjalankan crawler, lalu mengirim laporan. Pemetaan job:
 
 | Job | Crawler |
 |---|---|
@@ -30,7 +30,7 @@ Yang belum:
 | `kip`, `lk`, `ipo` | belum ada crawler, dilaporkan gagal |
 
 Belum dikerjakan:
-- **`conflicts` tidak dikirim.** Data `group`, `shareholders`, `management` dari crawler 2 perlu dipetakan ke bentuk form emiten di backend (`validateForm` di `stockplan-backend/lib/adminCompanies.js`).
+- **Data profil dikirim lewat `POST /admin/api/sync/agent/companies`** (`lib/push.js`, `npm run push`), sesuai `docs/CRAWLER_SYNC_PROMPT.md`. Ticker yang belum ada di `market_companies` dilaporkan `unknown` dan dilewati, jadi pengisian awal emiten baru masih perlu script impor di backend.
 - **Run terjadwal** ("Harian 06.00") dan `nextRunAt` belum ada. Agent hanya menjalankan job yang dipicu admin.
 - **Belum diuji dengan backend dan IDX sungguhan.** Yang sudah diuji: unit test dan server tiruan.
 - **Crawler 2 memakai `headless: false`**, jadi akan gagal di server tanpa display.

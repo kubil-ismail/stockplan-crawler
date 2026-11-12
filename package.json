@@ -4,10 +4,11 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "build": "cd lib && node crawler.js",
+    "build": "cd lib && node --env-file-if-exists=../.env crawler.js",
     "export": "cd lib && node runner-migrate.js",
     "test": "node --test test/*.test.js",
-    "start": "node --env-file-if-exists=.env index.js"
+    "start": "node --env-file-if-exists=.env index.js",
+    "push": "node --env-file=.env lib/push-cli.js"
   },
   "keywords": [],
   "author": "",

@@ -17,7 +17,7 @@ import path from "path";
 import { fileURLToPath } from "url";
 import cliProgress from "cli-progress";
 import { createFolder } from "../../lib/migrate.js";
-import { assertNotHardBlocked, chromeUA } from "../../lib/helper.js";
+import { assertNotHardBlocked, chromeUA, adminMessage } from "../../lib/helper.js";
 import parser from "../../middleware/idx/2_company-summary.parser.js";
 import tester from "../../test/idx/2_company-summary.test.js";
 
@@ -131,9 +131,9 @@ let browser;
 let context;
 let page;
 
-async function createSession() {
+async function createSession(headless = true) {
   browser = await chromium.launch({
-    headless: false,
+    headless,
     slowMo: randomInt(10, 40),
   });
 
@@ -464,21 +464,22 @@ export default async function main(options) {
 
   const stock_code_list = company?.data?.map((item) => item.kode);
 
-  const company_list_idx = fs
-    .readdirSync(COMPANY_IDX_DIR)
-    .filter((f) => f.endsWith(".json"));
-
   const banned = ["MFIN"];
 
-  // options.tickers (retry dari sync) dan options.force mengabaikan cache file
+  // Sudah lengkap kalau file mentah dan minify-nya ada; berlaku juga untuk options.force dari sync.
+  const scraped = (code) =>
+    fs.existsSync(path.join(COMPANY_IDX_DIR, `${code}.json`)) &&
+    fs.existsSync(path.join(COMPANY_IDX_MIN_DIR, `${code}.json`));
+
+  // options.tickers ("Coba lagi" dari sync) selalu di-scrape ulang
   const toScrape =
     options?.tickers ??
     stock_code_list.filter(
-      (code) =>
-        code.length === 4 &&
-        !banned.includes(code) &&
-        (options?.force || !company_list_idx.includes(`${code}.json`))
+      (code) => code.length === 4 && !banned.includes(code) && !scraped(code)
     );
+
+  if (!options?.disableConsole)
+    console.log(`⏭️ ${stock_code_list.length - toScrape.length} emiten sudah ada di dist, dilewati`);
 
   // progress bar
   const progressBar = new cliProgress.SingleBar(
@@ -498,7 +499,7 @@ export default async function main(options) {
   });
 
   const failures = [];
-  let ok = 0;
+  const done = [];
   let blocked = false;
 
   await createSession();
@@ -508,30 +509,30 @@ export default async function main(options) {
 
     try {
       await scrapeCorporateAction(code, page, options);
-      ok++;
+      done.push(code);
     } catch (err) {
       try {
         if (err.hardBlock || !/Cloudflare|blocked/.test(err.message)) throw err;
 
         console.log("♻️ Recreating browser session...");
         await destroySession();
-        await createSession();
+        await createSession(false); // diblokir dalam headless → lanjut dengan browser terlihat
 
         // retry sekali pakai browser baru
         await scrapeCorporateAction(code, page, options);
-        ok++;
+        done.push(code);
       } catch (err2) {
         if (err2.hardBlock) {
           // Diblokir WAF: emiten berikutnya pasti ikut diblokir, jadi berhenti di sini.
-          const left = toScrape.length - ok - failures.length;
+          const left = toScrape.length - done.length - failures.length;
           console.log(`⛔ ${err2.message}`);
-          failures.push({ message: `${err2.message} Berhenti di ${code}, ${left} emiten belum diproses.` });
+          failures.push({ message: `${adminMessage(err2)} Berhenti di ${code}, ${left} emiten belum diproses.`, log: err2.message });
           blocked = true;
           break;
         }
 
         console.log(`❌ Failed ${code}: ${err2.message}`);
-        failures.push({ ticker: code, message: err2.message });
+        failures.push({ ticker: code, message: adminMessage(err2), log: err2.message });
       }
     }
 
@@ -546,5 +547,5 @@ export default async function main(options) {
     console.log(`🎯 Done in ${(Date.now() - start) / 1000}s`);
   }
 
-  return { ok, total: toScrape.length, failures, blocked };
+  return { ok: done.length, total: toScrape.length, failures, blocked, scraped: done };
 }

@@ -1,10 +1,10 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { runJob } from "../lib/sync-agent.js";
+import { runJob, detailAndPush } from "../lib/sync-agent.js";
 
-test("job tanpa crawler dilaporkan gagal", async () => {
+test("job tanpa crawler dilaporkan gagal untuk seluruh job", async () => {
   const r = await runJob({ key: "kip", tickers: null });
-  assert.equal(r.failures.length, 1);
+  assert.deepEqual(r.failures, [{ ticker: null, message: "Belum didukung crawler" }]);
   assert.equal(r.ok, null);
 });
 
@@ -14,7 +14,7 @@ test("prof/sub/mgmt memakai satu run crawler detail", async () => {
     detail: async (o) => {
       calls++;
       assert.deepEqual(o, { force: true, tickers: ["BUMI"] });
-      return { ok: 0, total: 1, failures: [{ ticker: "BUMI", message: "x".repeat(300) }] };
+      return { ok: 0, total: 1, scraped: [], failures: [{ ticker: "BUMI", message: "x".repeat(300), log: "y".repeat(600) }] };
     },
   };
   const cache = new Map();
@@ -23,6 +23,8 @@ test("prof/sub/mgmt memakai satu run crawler detail", async () => {
   assert.equal(calls, 1);
   assert.deepEqual(b.tickers, ["BUMI"]);
   assert.equal(a.failures[0].message.length, 200);
+  assert.equal(a.failures[0].log.length, 500);
+  assert.equal("scraped" in a, false);
 });
 
 test("crawler satu halaman: total dari output, error jadi failure", async () => {
@@ -50,4 +52,17 @@ test("diblokir IDX: job berikutnya di putaran yang sama tidak menjalankan crawle
   assert.match(b.failures[0].message, /Diblokir IDX/);
   assert.deepEqual(b.tickers, ["BUMI"]);
   assert.equal(b.ok, null);
+});
+
+test("detailAndPush: ok = di-scrape dan tidak invalid; kegagalan push digabung", async () => {
+  const scrape = async () => ({ ok: 3, total: 4, scraped: ["AADI", "BBCA", "BUMI"], failures: [{ ticker: "TLKM", message: "a" }] });
+  const push = async ({ tickers }) => {
+    assert.equal(tickers, null);
+    return { invalid: ["BBCA"], failures: [{ ticker: "BBCA", message: "Data profil BEI ditolak backend" }] };
+  };
+  // companyList() asli dilewati: file company.json sudah ada → crawler 1 tidak scraping.
+  const r = await detailAndPush({ force: true }, scrape, push);
+  assert.equal(r.ok, 2);
+  assert.equal(r.total, 4);
+  assert.deepEqual(r.failures.map((f) => f.ticker), ["TLKM", "BBCA"]);
 });
